@@ -19,4 +19,5 @@
 -Created Roadmap file for personal reference.
 -Created backend folder.
 -Created frontend folder.
+-Created vector_index folder.
 
