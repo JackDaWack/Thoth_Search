@@ -1,0 +1,139 @@
+📅 Realistic Roadmap (~3–5 weeks)
+🔹 Phase 1: Project Setup & Planning (~2 days)
+
+Goals:
+
+Define scope clearly
+
+Set up repo and basic structure
+
+Tasks:
+
+ Initialize GitHub repo with README
+
+ Create folders: backend/, frontend/, vector_index/, data/
+
+ Decide on frontend (Streamlit = faster, React = better polish)
+
+ Install initial tools:
+
+Python: sentence-transformers, FastAPI, Uvicorn
+
+C++: pybind11, CMake
+
+Optional: Docker
+
+Deliverable:
+
+Empty but structured project folder
+
+Clear roadmap saved in README.md
+
+🔹 Phase 2: Embedding & Backend API (Python) (~4–6 days)
+
+Goals:
+
+Enable embedding of text queries & documents
+
+Expose an API to serve embeddings and accept search requests
+
+Tasks:
+
+ Load or create a sample text dataset (100–200 short docs)
+
+ Generate and save document embeddings using:
+
+from sentence_transformers import SentenceTransformer
+model = SentenceTransformer('all-MiniLM-L6-v2')
+
+
+ Save embeddings to .npy and metadata to .json or SQLite
+
+ Create FastAPI endpoints:
+
+POST /search (takes text query)
+
+GET /docs/{id} (fetch doc details)
+
+Deliverable:
+
+Working FastAPI backend that embeds a query and returns dummy search results
+
+🔹 Phase 3: C++ Vector Similarity Engine (~1 week)
+
+Goals:
+
+Write and bind C++ cosine similarity search to Python
+
+Connect it to the Python API
+
+Tasks:
+
+ Write C++ cosine similarity + top-K search
+
+ Expose to Python with pybind11
+
+ Use CMake to build the shared library (.so or .pyd)
+
+ Test search accuracy vs. sklearn or numpy results
+
+ Plug it into the FastAPI backend:
+
+import vector_index
+top_ids = vector_index.top_k_similar(query_vec, all_vectors, k=5)
+
+
+Deliverable:
+
+Python-C++ pipeline: Query → Embedding → C++ search → Top N results
+
+🔹 Phase 4: Build the UI (~5–7 days)
+
+Option A: Streamlit (easy MVP)
+Option B: React (cleaner UX, more effort)
+
+Goals:
+
+User can enter a query
+
+Display top matched documents with scores/snippets
+
+Tasks:
+
+ Build input box for text queries
+
+ Call FastAPI /search endpoint
+
+ Display ranked results
+
+ Show metadata (e.g., title, snippet)
+
+Deliverable:
+
+Usable UI connected to backend, displaying real search results
+
+🔹 Phase 5: Polish, Test, and Ship (~5 days)
+
+Goals:
+
+Make it look professional
+
+Package for GitHub and deployment
+
+Tasks:
+
+ Add error handling and logs
+
+ Format output (e.g., confidence scores, titles)
+
+ Add usage instructions in README.md
+
+ Record a 2–3 minute demo video (Loom or OBS)
+
+ Optional: Deploy (e.g., on Render, Railway, or localhost)
+
+Deliverable:
+
+Polished, portfolio-ready AI search engine
+
+GitHub repo with live preview or demo video
