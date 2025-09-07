@@ -18,4 +18,5 @@
 -Established repository and Readme file with defined features of the project and projected roadmap.
 -Created Roadmap file for personal reference.
 -Created backend folder.
+-Created frontend folder.
 
