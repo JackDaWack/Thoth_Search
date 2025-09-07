@@ -20,4 +20,6 @@
 -Created backend folder.
 -Created frontend folder.
 -Created vector_index folder.
+-Created data folder.
+-Updated README.txt
 
