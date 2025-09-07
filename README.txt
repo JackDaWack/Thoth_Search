@@ -5,6 +5,7 @@
 -Dashboard / UI: View and test searches, upload content.
 
 --Roadmap(See Roadmap.txt for further details)--
+
 -Setup & Planning	2 days
 -Embedding & API	4–6 days
 -C++ Vector Search	5–7 days
