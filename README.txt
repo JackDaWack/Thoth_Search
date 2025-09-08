@@ -15,6 +15,10 @@
 
 --Progress Log--
 
+9/8/2025
+-Cloned github repo to local desktop.
+-Installed FastAPI, Uvicorn and pybind11.
+
 9/7/2025
 -Established repository and Readme file with defined features of the project and projected roadmap.
 -Created Roadmap file for personal reference.
