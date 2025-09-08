@@ -18,6 +18,8 @@
 9/8/2025
 -Cloned github repo to local desktop.
 -Installed FastAPI, Uvicorn and pybind11.
+-Created .py files for later implementation.
+-Moved data folder to backend.
 
 9/7/2025
 -Established repository and Readme file with defined features of the project and projected roadmap.
