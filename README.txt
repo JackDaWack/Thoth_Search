@@ -6,7 +6,7 @@
 
 --Roadmap(See Roadmap.txt for further details)--
 
--Setup & Planning	2 days
+-Setup & Planning	2 days [Completed]
 -Embedding & API	4–6 days
 -C++ Vector Search	5–7 days
 -UI Development	5–7 days
@@ -20,6 +20,10 @@
 -Installed FastAPI, Uvicorn and pybind11.
 -Created .py files for later implementation.
 -Moved data folder to backend.
+-Created .cpp files for later implementation.
+-Marked Setup & Planning phase as Completed.
+-Updated README. 
+
 
 9/7/2025
 -Established repository and Readme file with defined features of the project and projected roadmap.
