@@ -22,6 +22,7 @@
 -Moved data folder to backend.
 -Created .cpp files for later implementation.
 -Marked Setup & Planning phase as Completed.
+-Began implementation on backend/app.py
 -Updated README. 
 
 
