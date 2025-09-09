@@ -18,6 +18,7 @@
 9/9/2025
 -Began implementation of embeddings.py
 -Created files in data folder.
+-Installed sentence transformers library.
 
 
 9/8/2025
