@@ -23,6 +23,7 @@
 -Added implementation for app.py
 -Fixed implementation issues for app.py
 -Fixed search() in app.py
+-Implemented error handling in app.py
 
 9/8/2025
 -Cloned github repo to local desktop.
