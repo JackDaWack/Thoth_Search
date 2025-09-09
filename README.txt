@@ -15,6 +15,11 @@
 
 --Progress Log--
 
+9/9/2025
+-Began implementation of embeddings.py
+-Created files in data folder.
+
+
 9/8/2025
 -Cloned github repo to local desktop.
 -Installed FastAPI, Uvicorn and pybind11.
