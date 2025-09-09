@@ -20,7 +20,7 @@
 -Created files in data folder.
 -Installed sentence transformers library.
 -Fixed implementation issues for embeddings.py
-
+-Added implementation for app.py
 
 9/8/2025
 -Cloned github repo to local desktop.
