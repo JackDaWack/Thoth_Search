@@ -7,7 +7,7 @@
 --Roadmap(See Roadmap.txt for further details)--
 
 -Setup & Planning	2 days [Completed]
--Embedding & API	4–6 days
+-Embedding & API	4–6 days [1/6]
 -C++ Vector Search	5–7 days
 -UI Development	5–7 days
 -Polish & Ship	5 days
@@ -25,6 +25,9 @@
 -Fixed search() in app.py
 -Implemented error handling in app.py
 -Attempted to test with [uvicorn backend.app:app --reload] no result beyond error.
+-Updated progress on phase 2.
+-Updated README file.
+
 
 9/8/2025
 -Cloned github repo to local desktop.
