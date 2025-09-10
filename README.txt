@@ -17,6 +17,7 @@
 
 9/10/2025
 -Updated pip.
+-Attempted uvicorn reinstallation.
 
 9/9/2025
 -Began implementation of embeddings.py
