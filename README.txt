@@ -18,6 +18,7 @@
 9/10/2025
 -Updated pip.
 -Attempted uvicorn reinstallation.
+-Successfully ran with [python -m uvicorn backend.app:app --reload].
 
 9/9/2025
 -Began implementation of embeddings.py
