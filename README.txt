@@ -22,6 +22,7 @@
 -Removed backend.txt
 -Removed frotntend.txt
 -Removed data.txt
+-Added implementation to get started on documents.json
 -Updated README file.
 
 9/9/2025

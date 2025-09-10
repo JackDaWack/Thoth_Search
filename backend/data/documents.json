@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Document Title",
+    "text": "Sample text for embedding generation."
+  },
+  {
+    "id": 2,
+    "title": "Another Document",
+    "text": "This is another example document for semantic search."
+  }
+]
