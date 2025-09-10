@@ -15,6 +15,9 @@
 
 --Progress Log--
 
+9/10/2025
+-Updated pip.
+
 9/9/2025
 -Began implementation of embeddings.py
 -Created files in data folder.
